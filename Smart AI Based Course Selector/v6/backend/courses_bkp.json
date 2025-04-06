@@ -1,0 +1,107 @@
+[
+  {
+    "title": "AI for Beginners",
+    "career_paths": [
+      "Data Scientist",
+      "AI Engineer"
+    ],
+    "level": "Undergraduate",
+    "year": [
+      "Freshman",
+      "Sophomore",
+      "Junior"
+    ],
+    "days": [
+      "Monday",
+      "Wednesday"
+    ],
+    "time": "10:00-11:30",
+    "credits": 3,
+    "prerequisites": []
+  },
+  {
+    "title": "Advanced Machine Learning",
+    "career_paths": [
+      "ML Engineer",
+      "Data Scientist"
+    ],
+    "level": "Graduate",
+    "year": [
+      "1st Year",
+      "2nd Year"
+    ],
+    "days": [
+      "Tuesday",
+      "Thursday"
+    ],
+    "time": "11:00-13:00",
+    "credits": 4,
+    "prerequisites": [
+      "Introduction to Machine Learning",
+      "Statistics"
+    ]
+  },
+  {
+    "title": "Data Visualization",
+    "career_paths": [
+      "Data Analyst",
+      "Product Manager"
+    ],
+    "level": "Undergraduate",
+    "year": [
+      "Junior",
+      "Senior"
+    ],
+    "days": [
+      "Friday"
+    ],
+    "time": "09:00-10:30",
+    "credits": 3,
+    "prerequisites": [
+      "Intro to Data Science"
+    ]
+  },
+  {
+    "title": "Introduction to Machine Learning",
+    "career_paths": [
+      "Data Scientist",
+      "AI Engineer"
+    ],
+    "level": "Undergraduate",
+    "year": [
+      "Junior",
+      "Senior"
+    ],
+    "days": [
+      "Tuesday"
+    ],
+    "time": "14:00-15:00",
+    "credits": 3,
+    "prerequisites": [
+      "Linear Algebra",
+      "Python"
+    ]
+  },
+  {
+    "title": "Advanced Web Development",
+    "career_paths": [
+      "Full Stack Developer",
+      "Frontend Engineer"
+    ],
+    "level": "Undergraduate",
+    "year": [
+      "Junior",
+      "Senior"
+    ],
+    "days": [
+      "Thursday"
+    ],
+    "time": "10:00-12:00",
+    "credits": 4,
+    "prerequisites": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
+  }
+]

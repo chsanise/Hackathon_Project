@@ -1,0 +1,56 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #eaf6ff;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.app-header {
+  background-color: #004080;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.app-container {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.chat-section {
+  flex: 1;
+  padding: 1rem;
+  background-color: #d9f1ff;
+  overflow-y: auto;
+  border-right: 2px solid #ccc;
+}
+
+.recommendation-section {
+  flex: 1;
+  padding: 1rem;
+  background-color: #fff;
+  overflow-y: auto;
+}
+
+.recommendation-title {
+  color: #003366;
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.no-recommendation-text {
+  color: #555;
+  font-style: italic;
+  margin-top: 1rem;
+}

@@ -1,0 +1,73 @@
+
+.calendar-container {
+  margin-top: 10px;
+  padding: 12px;
+  background-color: #fefcff;
+  border-radius: 14px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.06);
+  width: 100%;
+  overflow-x: auto;
+}
+
+.calendar-grid {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+  font-size: 14px;
+}
+
+.calendar-grid th,
+.calendar-grid td {
+  border: 1px solid #eee;
+  padding: 10px;
+  text-align: center;
+  width: 14.28%; /* 100 / 7 days */
+  height: 45px;
+  transition: background-color 0.2s ease, transform 0.1s;
+}
+
+.calendar-grid th {
+  background-color: #e6f0ff;
+  font-weight: bold;
+  color: #00529b;
+  white-space: nowrap;
+}
+
+.time-header {
+  background-color: #f0f4f8;
+  font-weight: bold;
+  color: #444;
+}
+
+.slot {
+  cursor: pointer;
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+
+.slot:hover {
+  background-color: #cce6ff;
+}
+
+.slot.selected {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  transform: scale(1.05);
+}
+
+.done-button {
+  padding: 8px 18px;
+  font-size: 14px;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background-color 0.2s;
+}
+
+.done-button:hover {
+  background-color: #005bb5;
+}
